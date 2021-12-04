@@ -19,14 +19,14 @@ describe("Test Suite", function () {
             .checkLogIn();
     });
 
-    it('#2 Add item to cart', () => {
+    it('#2 Add item to cart Test', () => {
         cartPage
             .addTShortItemToCart()
             .checkAddedIdem()
             .closeAddedWindow();
     });
 
-    it('#3 remove added item from the cart', () => {
+    it('#3 remove added item from the cart Test', () => {
         cartPage
             .addTShortItemToCart()
             .closeAddedWindow()
