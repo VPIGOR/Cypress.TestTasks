@@ -26,7 +26,7 @@ describe("Test Suite", function () {
             .closeAddedWindow();
     });
 
-    it('#1 remove added item from the cart', () => {
+    it('#3 remove added item from the cart', () => {
         cartPage
             .addTShortItemToCart()
             .closeAddedWindow()
